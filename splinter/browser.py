@@ -97,5 +97,3 @@ def Browser(driver_name="firefox", retry_count=3, *args, **kwargs):  # NOQA: N80
         raise DriverNotFoundError("No driver for %s" % driver_name)
 
     return get_driver(driver, retry_count=retry_count, *args, **kwargs)
-
-#Comment added by Mehfooz
